@@ -1,6 +1,6 @@
 package com.aira.xbrl.model.instance
 
-import units._
+import squants._
 
 object Unit{
   val name = "unit"

@@ -1,9 +1,8 @@
-import com.aira.xbrl.model.taxonomy.DataType
-import com.aira.xbrl.model.instance.Fact
+package com.aira.xbrl
+
+import com.aira.xbrl.model.instance.{Fact, FactValue, Tuple}
+import com.aira.xbrl.model.taxonomy.{Concept, DataType}
 import com.aira.xbrl.util.Preamble._
-import com.aira.xbrl.model.taxonomy.Concept
-import com.aira.xbrl.model.instance.FactValue
-import com.aira.xbrl.model.instance.Tuple
 
 class StringDataType extends DataType{
   
