@@ -1,7 +1,7 @@
 package com.aira.xbrl.model.instance
 
 import com.aira.xbrl.model.taxonomy.Concept
-import com.aira.xbrl.model.taxonomy.DataType
+import com.aira.xbrl.model.taxonomy.types.DataType
 import com.aira.xbrl.model.XbrlElement
 import com.aira.xbrl.util.Preamble._
 

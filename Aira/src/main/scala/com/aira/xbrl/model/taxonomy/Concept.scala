@@ -6,6 +6,7 @@ import com.aira.xbrl.model.instance.Fact
 import com.aira.xbrl.model.instance.Unit
 import com.aira.xbrl.model.Namespace
 import com.aira.xbrl.model.XbrlElement
+import com.aira.xbrl.model.taxonomy.types.DataType
 
 object Concept{
   def newFact[T <: DataType](value: FactValue[T], concept: Concept[T], context : Context, unit : Unit, id : String)

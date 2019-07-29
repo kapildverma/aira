@@ -1,6 +1,7 @@
 package com.aira.xbrl.model.taxonomy
 
 import com.aira.xbrl.model.Relationship
+import com.aira.xbrl.model.taxonomy.types.DataType
 
 
 class Linkbase {

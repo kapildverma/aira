@@ -2,7 +2,7 @@ package com.aira.xbrl.model.instance
 
 import com.aira.xbrl.model.XbrlElement
 import com.aira.xbrl.model.Namespace
-import com.aira.xbrl.model.taxonomy.DataType
+import com.aira.xbrl.model.taxonomy.types.DataType
 import com.aira.xbrl.model.taxonomy.Taxonomy
 import com.aira.xbrl.model.Relationship
 import com.aira.xbrl.model.taxonomy.Linkbase

@@ -1,7 +1,8 @@
 package com.aira.xbrl
 
 import com.aira.xbrl.model.instance.{Fact, FactValue, Tuple}
-import com.aira.xbrl.model.taxonomy.{Concept, DataType}
+import com.aira.xbrl.model.taxonomy.types.DataType
+import com.aira.xbrl.model.taxonomy.Concept
 import com.aira.xbrl.util.Preamble._
 
 class StringDataType extends DataType{
@@ -30,7 +31,7 @@ object Test{
     
     var list = List[DataType](intType, stringType)
     
-    val stringConcept = new Concept[StringDataType]("StringConcept", "testnamespace")
+    val stringConcept = new Concept[StringDataType]("StDataTyperingConcept", "testnamespace")
     
     val intConcept = new Concept[IntDataType]("IntConcept", "testnamespace")
     

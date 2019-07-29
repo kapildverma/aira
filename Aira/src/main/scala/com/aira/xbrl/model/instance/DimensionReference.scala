@@ -2,7 +2,7 @@ package com.aira.xbrl.model.instance
 
 import com.aira.xbrl.model.XbrlElement
 import com.aira.xbrl.model.taxonomy.Concept
-import com.aira.xbrl.model.taxonomy.DataType
+import com.aira.xbrl.model.taxonomy.types.DataType
 
 abstract class DimensionReference[D <: DataType](_dimension:Concept[D]) extends XbrlElement{
   val dimension = _dimension
